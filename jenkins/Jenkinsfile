@@ -20,7 +20,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/skillupwithsachin/simple-java-maven-app.git'
+                    url: 'https://github.com/nsurve07/simple-java-maven-app.git'
             }
         }
         
