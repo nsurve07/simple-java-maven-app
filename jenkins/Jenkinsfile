@@ -9,7 +9,7 @@ pipeline {
         NEXUS_URL = "http://107.20.20.137:8081"
         NEXUS_CREDENTIAL_ID = "nexus-credentials"
         SONARQUBE_URL = "http://107.20.20.137:9000"
-        SONARQUBE_TOKEN = credentials('sonarqube-token')
+        // SONARQUBE_TOKEN = credentials('sonarqube-token')
     }
     
     options {
